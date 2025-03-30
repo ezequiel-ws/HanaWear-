@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanaWear - Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">HanaWear</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de productos -->
+    <section id="productos" class="product-grid">
+        <h1>Descubre HanaWear</h1>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x400" alt="Producto 1">
+            <h3>Camiseta Floral</h3>
+            <p>$25.00</p>
+            <button onclick="addToCart('Camiseta Floral', 25)">Añadir al carrito</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x400" alt="Producto 2">
+            <h3>Vestido Elegante</h3>
+            <p>$45.00</p>
+            <button onclick="addToCart('Vestido Elegante', 45)">Añadir al carrito</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x400" alt="Producto 3">
+            <h3>Chaqueta Urbana</h3>
+            <p>$60.00</p>
+            <button onclick="addToCart('Chaqueta Urbana', 60)">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 HanaWear. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
